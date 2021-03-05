@@ -39,7 +39,10 @@ function buy_click(){
 }
 
 function update_display() {
-  count_html.innerHTML = count.toString()
+  if (count.cmp(1000) == -1)
+    count_html.innerHTML = count.toString()
+  else
+    count_html.innerHTML = count.toExponential(2).replace("+", "")
 }
 
 var cock = setInterval(add_cps, 1000)
