@@ -18,7 +18,7 @@ function increment_cps(amount = 1) {
 }
 
 function has_enough(amount) {
-  return !count.min(0).equals(0)
+  return count.cmp(amount) == 1
 }
 
 function deduct(amount = 1) {
