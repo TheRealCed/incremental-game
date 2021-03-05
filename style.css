@@ -1,0 +1,21 @@
+body {
+  background-color: #1f1f1f;
+}
+
+a.line {
+  border-bottom: 2px solid black;
+  display: block;
+  height: 40px;
+  width: 10020px;
+}
+
+a.vertical-line {
+  border-left: 2px solid black;
+  display: block;
+  height: 1000px;
+  width: 101px;
+}
+
+.p {
+  color: red;
+}
